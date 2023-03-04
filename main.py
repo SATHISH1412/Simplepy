@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 import uvicorn
-from devopslib.logic import search_wiki
-from devopslib.logic import wiki as wikilogic
-from devopslib.logic import phrase as wikiphrases
+from lib.logic import search_wiki
+from lib.logic import wiki as wikilogic
+from lib.logic import phrase as wikiphrases
 
 app = FastAPI()
 
